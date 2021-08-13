@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        table {
+            margin: 50px auto;
+        }
+        td{
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            
+        }
+        .bangcuuchuong {
+            background-color: #eee;
+            width: 90%;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .nhan2,.nhan3,.nhan4,.nhan5
+        ,.nhan6,.nhan7,.nhan8,.nhan9 {
+            width: 25%;
+            text-align: center;
+        
+            border: 1px solid black;
+            height: 300px;
+            line-height: 1.6;
+        }
+    </style>
+    
+</head>
+<body>
+    
+
+
+    <table cellpadding="0" cellspacing="0">
+       
+    <script>
+        for(i = 0 ; i < 8 ; i++){
+            document.write('<tr></tr>');
+            for(j = 0 ; j < 8; j++){
+                document.write('<td></td>');
+            }
+        }
+
+    </script>
+
+   </table>
+<div class="bangcuuchuong">
+
+    <div class="nhan2">
+        <script>
+            document.write('<br>Bảng cửu chương 2');
+            for(var i = 1;i <=9;i++){
+                document.write('<br>2 x '+ i + '=' + 2*i);
+            }
+        </script>
+    </div>
+     <div class="nhan3">
+        <script>
+            document.write('<br>Bảng cửu chương 3');
+            for(var i = 1;i <=9;i++){
+                document.write('<br>3 x '+ i + '=' + 3*i);
+            }
+        </script>
+     </div>
+     <div class="nhan4">
+        <script>
+            document.write('<br>Bảng cửu chương 4');
+            for(var i = 1;i <=9;i++){
+                document.write('<br>4 x '+ i + '=' + 4*i);
+            }
+        </script>
+     </div>
+     <div class="nhan5">
+        <script>
+            document.write('<br>Bảng cửu chương 5');
+            for(var i = 1;i <=9;i++){
+                document.write('<br>5 x '+ i + '=' + 5*i);
+            }
+        </script>
+     </div>
+     <div class="nhan6">
+        <script>
+            document.write('<br>Bảng cửu chương 6');
+            for(var i = 1;i <=9;i++){
+                document.write('<br>6 x '+ i + '=' + 6*i);
+            }
+        </script>
+     </div>
+     <div class="nhan7">
+        <script>
+            document.write('<br>Bảng cửu chương 7');
+            for(var i = 1;i <=9;i++){
+                document.write('<br>7 x '+ i + '=' + 7*i);
+            }
+        </script>
+     </div>
+     <div class="nhan8">
+        <script>
+            document.write('<br>Bảng cửu chương 8');
+            for(var i = 1;i <=9;i++){
+                document.write('<br>8 x '+ i + '=' + 8*i);
+            }
+        </script>
+     </div>
+     <div class="nhan9">
+        <script>
+            document.write('<br>Bảng cửu chương 9');
+            for(var i = 1;i <=9;i++){
+                document.write('<br>9 x '+ i + '=' + 9*i);
+            }
+        </script>
+     </div>
+</div>
+    
+    
+
+     <script>
+      
+         var x = document.getElementsByTagName('td');
+         for( i =0;i< 8;i++) {
+             if(i%2==1){
+                 x[i].style.backgroundColor = 'black';
+             }
+         }  
+         for( i =8;i< 16;i++) {
+             if(i%2==0){
+                 x[i].style.backgroundColor = 'black';
+             }
+         } 
+         for( i =16;i< 24;i++) {
+             if(i%2==1){
+                 x[i].style.backgroundColor = 'black';
+             }
+         }    
+         for( i =24;i< 32;i++) {
+             if(i%2==0){
+                 x[i].style.backgroundColor = 'black';
+             }
+         } 
+         for( i =32;i< 40;i++) {
+             if(i%2==1){
+                 x[i].style.backgroundColor = 'black';
+             }
+         } 
+         for( i =40;i< 48;i++) {
+             if(i%2==0){
+                 x[i].style.backgroundColor = 'black';
+             }
+         } 
+         for(var i =48;i< 56;i++) {
+             if(i%2==1){
+                 x[i].style.backgroundColor = 'black';
+             }
+         } 
+         for(var i =56;i< 64;i++) {
+             if(i%2==0){
+                 x[i].style.backgroundColor = 'black';
+             }
+         } 
+         
+
+         
+         
+     </script>
+
+
+
+
+
+
+    
+</body>
+</html>
